@@ -1,0 +1,16 @@
+.content {
+	width: 960px;
+	margins: 0;
+}
+
+.header {
+	background-color: #fff;
+	border-bottom: 1px solid #999;
+	height: 80px;
+}
+header .logo {
+	background-color: #4aaaa5;
+	width: max-content;
+	padding: 20px;
+	display: inline-block;
+}
