@@ -30,13 +30,17 @@
 	margin: 0;
 }
 footer{
-	bottom: 0;
-	border-top: 5px;
-	background-color: #666;
+	border-top-width: 5px;
+	border-top-style: solid;
+	border-top-color: #4aaaa5;
 	color: #ffffff;
+	height: 50px;
 	width: 100%;
 	text-align: center;
+	padding: 20px;
+	font-family: Arial, Helvetica, sans-serif;
 	position: fixed;
+	bottom: 0;	
 }
 header .banner{
 	background-color: #4aaaa5
@@ -58,13 +62,27 @@ header nav li{
 	display: inline;
 }
 header nav li a{
+	color: #cccccc;
 	text-align: center;
 	padding: 0 10px;
-	border-right: 1px solid #ccc;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #cccccc;
 	text-decoration: none; 
 }
 header nav li:last-child a{
 	border-right: 0;
+}
+header .logo{
+	background-color: #4aaaa5;
+	width: max-content;
+	padding: 20px;
+	display: inline-block;
+}
+header .logo a{
+	font-size: 40px;
+	color: #ffffff;
+	text-decoration: none;
 }
 .body label{
 	font-family: sans-serif;
@@ -109,4 +127,33 @@ input{
 .body p .body label{
 	font-family: sans-serif;
 	color: #666;
+}
+button{
+	background-color: #4aaaa5;
+	padding: 10px;
+	color: #ffffff;
+	border: 0;
+	margin-top: 10px;
+}
+.sidebar{
+	width: 230px;
+	border: 1px solid #999;
+	float: right;
+	padding: 20px;
+	background-color: #ffffff
+}
+h2{
+	font-size: 24px;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #ddd;
+	color: #4aaaa5;
+}
+.sidebar ul{
+	margin-top: 20px;
+}
+.sidebar li a im{
+	width: 48px; 
+}
+sidebar li{
+	display: inline;
 }
