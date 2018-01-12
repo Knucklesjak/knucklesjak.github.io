@@ -1,16 +1,74 @@
-.content {
+.connect{
+	float: right;
+	background-color: #ffffff;
+	padding: 20px;
+}
+.bio{
+	float: left;
+	background-color: #ffffff;
+	width: 610px;
+	padding: 20px
+	border: solid;
+}
+.bio img{
+	float: left;
+	width: 150px;
+	margin-right: 20px;
+}
+.content{
 	width: 960px;
-	margins: 0;
+	margin: 0;
 }
-
-.header {
-	background-color: #fff;
-	border-bottom: 1px solid #999;
-	height: 80px;
-}
-header .logo {
-	background-color: #4aaaa5;
-	width: max-content;
+.banner{
 	padding: 20px;
 	display: inline-block;
+	background-color: #4aaaa5;
+	width: max-content;
+}
+.content{
+	width: 960px;
+	margin: 0;
+}
+footer{
+	bottom: 0;
+	border-top: 5px;
+	background-color: #666;
+	color: #ffffff;
+	width: 100%;
+	text-align: center;
+	position: fixed;
+}
+.body{
+	width: 100%;
+	padding: 30px; 
+	overflow: scroll;
+	height: 100%;
+	display: inline-block;
+}
+header .banner{
+	background-color: #4aaaa5
+	width: max-content;
+	display: inline-block;
+	padding: 20px;
+}
+header{
+	background-color: #ffffff;
+	height: 80px;
+	border-bottom: 1px solid #999;
+}
+header nav{
+	float: right;
+	margin-top: 25px; 
+}
+header nav li{
+	display: inline;
+}
+header nav li a{
+	text-align: center;
+	padding: 0 10px;
+	border-right: 1px solid #ccc;
+	text-decoration: none; 
+}
+header nav li:last-child a{
+	border-right: 0;
 }
