@@ -38,18 +38,12 @@ footer{
 	text-align: center;
 	position: fixed;
 }
-.body{
-	width: 100%;
-	padding: 30px; 
-	overflow: scroll;
-	height: 100%;
-	display: inline-block;
-}
 header .banner{
 	background-color: #4aaaa5
 	width: max-content;
 	display: inline-block;
 	padding: 20px;
+	margin-left: 50px;
 }
 header{
 	background-color: #ffffff;
@@ -71,4 +65,48 @@ header nav li a{
 }
 header nav li:last-child a{
 	border-right: 0;
+}
+.body label{
+	font-family: sans-serif;
+	color: #666;
+}
+h1{
+	font-size: 30px;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #ddd;
+	width: auto;
+	margin-bottom: 20px
+	color: #4aaaa5;
+}
+.maincontent{
+	width: 610px;
+	background-color: #fff;
+	border: 1px solid #999;
+	float: left;
+	padding: 20px;
+}
+div{
+	display: block;
+}
+.body{
+	background-image: url(assets/images/dust_scratches.png)
+	width: 100%;
+	display: inline-block;
+	padding: 30px 0;
+	height: 100%;
+}
+form{
+	font-family: sans-serif;
+}
+label input textarea{
+	width: 100%;
+}
+input{
+	padding: 10px;
+	margin-bottom: 10px; 
+	border: 1px solid #ddd;
+}
+.body p .body label{
+	font-family: sans-serif;
+	color: #666;
 }
