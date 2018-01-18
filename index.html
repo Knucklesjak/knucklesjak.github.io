@@ -1,72 +1,54 @@
-<!DOCTYPE html>
-<!-- NOTE: I realize my style.css sheet is all over the board. I had major trouble getting css to do what I wanted. I would LOVE to see a "solved" portion of this homework to see exactly where I went wrong so I could attempt to do this exercise again.  -->
-<html>
+<!doctype html>
+<html lang="en-us">
+
 <head>
-	<title>Jason Kunkel Homework 1</title>
-<link rel="stylesheet" href="assets/css/reset.css">
-<link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <title>About | Your Name</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
+
 <body>
-	<header>
-	<div class="content">
-		<div class="banner">
-			<!-- How do I remove my name being underlined? How do I make this bigger and positioned properly?  -->
-			<a href="index.html">Jason Kunkel</a>
-		</div>
-	<nav>
-		<ul>
-			<li> 
-				<a href="about.html">About</a>
-			</li>
-			<li> 
-				<a href="portfolio.html">Portfolio</a>
-			</li>
-			<li> 
-				<a href="contact.html">Contact</a>
-			</li>
-		</ul>
-	</nav>
-	</div>
-</header>
-	<div class="body">
-		<div class="content">
-			<div class="bio">
-				<!-- I cannot get this to format prpoerly. What am I doing wrong? -->
-				<h1>About Me</h1>
-				<img src="assets/images/profile.jpg" height="200px" alt="Jason">
-				<p>
-					I am a transplant to the Bay Area, having moved here from the Midewest in mid-2017 for my wife's work. For the past 10 years I have been a top performing REATLOR in Cincinnati. Prior to real estate I was successful in helping two companies - in the bank servicing and civil infrastructure industries, respectively - grow from small, local businesses into regional and national market leaders. 
-				</p>
-				<p>
-					My wife and I are proud, adoptive parents in a transracial family. I value spending time with family and friends, travel, the outdoors, and doing charity work. I decided to make the career transition into web development and coding to broaden my skillsets and create new business opportunities. 
-				</p>
-			</div>
-			<div class="connect">
-				<!-- I could not figure out how to get the logos side by side -->
-				<h2>Connect With Me</h2>
-				<ul>
-					<li>
-						<a href>
-							<img src="assets/images/github-png.png" alt="Github">
-							</a>
-					</li>
-					<li>
-						<a href>
-							<img src="assets/images/linkedin.png" alt="LinkedIn">
-						</a>
-					</li>
-					<li>
-						<a href="logo" alt="Stack OVerflow"></a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</body>
-<footer>
-	<div class="content">
-		<!-- Why isn't the text centering even though my CSS has text-align: center? -->
-		<!-- The footer disappeared as I was working on fixing other problems. No idea what happened -->
-		<p>Copyright (C) 2018 Jason Kunkel</p>
-	</div>
-</footer>
+
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Your Name</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>About Me</h1>
+
+      <img src="assets/images/cat.jpg" class="auth-image" alt="Your Name">
+
+      <p>Marshmallow jelly souffl&eacute; pastry biscuit gummi bears tootsie roll tootsie roll gingerbread. Cotton candy muffin gingerbread fruitcake. Sweet roll souffl&eacute; topping wafer croissant oat cake gummi&nbsp;bears.</p>
+
+      <p>Jelly-o cheesecake dessert fruitcake ice cream brownie liquorice souffl&eacute;. Caramels biscuit gummi bears tiramisu chupa chups. Croissant macaroon cotton candy cake pudding.</p>
+
+    </section>
+
+    <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
+
+        <a href="#"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
+        <a href="#"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
+        <a href="#"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <div class="container">
+      Copyright &copy; 2016 Your Name
+    </div>
+  </footer>
+</body>
+
 </html>
